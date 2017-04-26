@@ -45,5 +45,5 @@ Why will I make Python 3 my default on my system vs. Python 2?  For the majority
   
   sudo update-alternatives --config python
 
-### This last command will allow you to choose which version of python to use by default. For me I had to select =2 as the default. Lastly reboot the system. 
+### This last command will allow you to choose which version of python to use by default. For me I had to select #2 as the default. Lastly reboot the system. 
 
