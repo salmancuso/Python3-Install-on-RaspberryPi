@@ -11,7 +11,7 @@ Why will I make Python 3 my default on my system vs. Python 2?  For the majority
 
 
 # DOWNLOAD, BUILD AND INSTALL PYTHON 3.
-### NOTE. CHANGE 3.6.1 TO THE RELEASE YOU WANT####  
+  ### NOTE. CHANGE 3.6.1 TO THE RELEASE YOU WANT####  
 
   mkdir ~/python3
 
@@ -34,19 +34,14 @@ Why will I make Python 3 my default on my system vs. Python 2?  For the majority
   sudo reboot
 
 # INSTALL PIP3
-
-sudo apt-get install python3-pip
+  sudo apt-get install python3-pip
 
 
 # CHANGE PYTHON 3 TO BE DEFAULT PYTHON.
-# THIS ASSUMES YOU ALREADY HAVE PYTHON2.7 INSTALLED ON YOUR SYSTEM
+  ### THIS ASSUMES YOU ALREADY HAVE PYTHON2.7 INSTALLED ON YOUR SYSTEM
+  sudo update-alternatives --install /usr/bin/python python /PATH/TO/PYTHON3 1
+  sudo update-alternatives --install /usr/bin/python python /PATH/TO/PYTHON2.7 10
+  sudo update-alternatives --config python
 
-sudo update-alternatives --install /usr/bin/python python /PATH/TO/PYTHON3 1
-sudo update-alternatives --install /usr/bin/python python /PATH/TO/PYTHON2.7 10
-sudo update-alternatives --config python
-
-This last command will allow you to choose which version of python to use by default. For me I had to select =2 as the default.
-
-sudo reboot
-
+### This last command will allow you to choose which version of python to use by default. For me I had to select =2 as the default. Lastly reboot the system. 
 
