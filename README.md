@@ -11,27 +11,27 @@ Why will I make Python 3 my default on my system vs. Python 2?  For the majority
 
 
 # DOWNLOAD, BUILD AND INSTALL PYTHON 3.
-# NOTE. CHANGE 3.6.1 TO THE RELEASE YOU WANT####
-#
+### NOTE. CHANGE 3.6.1 TO THE RELEASE YOU WANT####  
+
   mkdir ~/python3
 
-cd ~/python3  
+  cd ~/python3  
 
-wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
+  wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
 
-tar xvf Python-3.6.1.tar.xz
+  tar xvf Python-3.6.1.tar.xz
 
-cd Python-3.6.1
+  cd Python-3.6.1
 
-./configure
+  ./configure
 
-make
+  make
 
-sudo make install
+  sudo make install
 
-sudo rm -rf ~/python3/Python-3.6.1
+  sudo rm -rf ~/python3/Python-3.6.1
 
-sudo reboot
+  sudo reboot
 
 # INSTALL PIP3
 
