@@ -1,4 +1,4 @@
-# Python3 Install on RaspberryPi
+# Python 3 Install on RaspberryPi
 
 The in of this repository is to provide a guideline for installing Python 3 on a Raspberry Pi or any Debian/Ubuntu based Linux machine. 
 
