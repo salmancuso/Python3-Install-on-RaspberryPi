@@ -6,16 +6,16 @@ There are four sections.  The first will install dependencies that python 3 will
 
 Why will I make Python 3 my default on my system vs. Python 2?  For the majority of my coding life I've worked in Python 2, it is comfortable, easy to use and let's face it there has been an abundance of libraries.  That said in the year 2020 (which is less than three years from the time I am wrighting this) Python 2 will be discontinued and support (upgrades and patches) will cease. 
 
-#################################################################################
-#################################################################################
+##################################################
+##################################################
 ########   INSTALL DEPENDENCIES 
 ########   
 
 sudo apt-get install libbz2-dev liblzma-dev libsqlite3-dev libncurses5-dev libgdbm-dev zlib1g-dev libreadline-dev libssl-dev tk-dev
 
 
-#################################################################################
-#################################################################################
+##################################################
+##################################################
 ########   DOWNLOAD, BUILD AND INSTALL PYTHON 3.
 ########   NOTE. CHANGE 3.6.1 TO THE RELEASE YOU WANT
 
@@ -39,16 +39,16 @@ sudo rm -rf ~/python3/Python-3.6.1
 
 sudo reboot
 
-#################################################################################
-#################################################################################
+##################################################
+##################################################
 ########   INSTALL PIP3
 ########   
 
 sudo apt-get install python3-pip
 
 
-#################################################################################
-#################################################################################
+##################################################
+##################################################
 ########   CHANGE PYTHON 3 TO BE DEFAULT PYTHON.
 ########   THIS ASSUMES YOU ALREADY HAVE PYTHON2.7 INSTALLED ON YOUR SYSTEM
 
