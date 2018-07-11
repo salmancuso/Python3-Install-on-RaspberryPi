@@ -38,7 +38,7 @@ make
 sudo make install
 ```
 ```
-sudo rm -rf ~/python3/Python-3.7.0
+sudo rm -rf ~/Python3/Python-3.7.0
 ```
 ```
 sudo reboot
