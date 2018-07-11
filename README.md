@@ -20,13 +20,13 @@ mkdir ~/python3
 cd ~/python3  
 ```
 ```
-wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tar.xz
+wget https://www.python.org/ftp/python/3.6.1/Python-3.7.0.tar.xz
 ```
 ```
-tar xvf Python-3.6.1.tar.xz
+tar xvf Python-3.7.0.tar.xz
 ```
 ```
-cd Python-3.6.1
+cd Python-3.7.0
 ```
 ```
 ./configure
@@ -38,7 +38,7 @@ make
 sudo make install
 ```
 ```
-sudo rm -rf ~/python3/Python-3.6.1
+sudo rm -rf ~/python3/Python-3.7.0
 ```
 ```
 sudo reboot
