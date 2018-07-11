@@ -20,7 +20,7 @@ mkdir ~/python3
 cd ~/python3  
 ```
 ```
-wget https://www.python.org/ftp/python/3.6.1/Python-3.7.0.tar.xz
+wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
 ```
 ```
 tar xvf Python-3.7.0.tar.xz
